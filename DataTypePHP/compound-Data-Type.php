@@ -15,4 +15,10 @@ echo($arr[2]);
 echo($arr[3]);
 print_r($arr);
 
+// object
+
+class student={
+    public  $clss:
+}
+
 ?>
