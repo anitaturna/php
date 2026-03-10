@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php
-    $X=20;  //global variablle
+    
+    $X=20;              //global variablle
     function test ()
     {
         global $X;
@@ -17,7 +18,7 @@
     test();
     echo "<br>";
 
-    function add(){
+    function add(){              //global + local mixed test
         $Y =50;
         global $X;
         echo $X + $Y;

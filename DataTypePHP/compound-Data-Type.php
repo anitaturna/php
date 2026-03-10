@@ -17,8 +17,9 @@ print_r($arr);
 
 // object
 
-class student={
-    public  $clss:
-}
+class student1={
+    public  $same = "Lucky";
+} $obj2 = new student1();
+echo $ob
 
 ?>

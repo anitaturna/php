@@ -24,8 +24,8 @@
 
     <?php
     $store = $_POST['n'];
-    // echo "Name:".$store;
-    print "Name:".$store;
+    echo "Name:".$store;
+    // print "Name:".$store;   ///print diya print korle return kore name ture output
 
     ?>
     
