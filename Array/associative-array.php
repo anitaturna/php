@@ -11,4 +11,17 @@
    }
   
 
+
+   //another way
+
+$dresscode = array(
+    "Turna"=>"3-pis",
+    "Kiton"=>"Shirt",
+    "Hiyo"=>"saree"
+   );
+   $name = array_key($dresscode);
+   $values = $name[2];
+   $secondvalue = $values[$values];
+   echo $secondvalue. ":".$values;
+   
 ?>

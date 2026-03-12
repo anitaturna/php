@@ -1,3 +1,5 @@
+
+
 <?php
 $a="";
 $b = 0;
@@ -14,7 +16,5 @@ var_dump(empty($d));
 echo "<br>";
 var_dump(empty($f));
 echo "<br>";
-
-
 
 ?>

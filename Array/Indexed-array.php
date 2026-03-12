@@ -12,10 +12,10 @@ echo "<br>";
 echo $cars[2];
 echo "<br>";
 
-
+// $cars = ["Volvo", "BMW", "Toyota"]
 //displays all item in array
-$cars = array("Volvo", "BMW", "Toyota");
-foreach ($cars as $x){
-    echo "$x <br>";
-}
-?>
+// $cars = array("Volvo", "BMW", "Toyota");
+// foreach ($cars as $x){
+//     echo $x."<br>";
+// }
+// ?>
