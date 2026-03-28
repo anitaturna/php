@@ -24,11 +24,10 @@ public function getName(){
 
 }
 
-$result = new Car("Toyota","Black");
+$r = new Car("Toyota","Black");
 
-$result = new car();
-$result->setName("BMW");
+$r->setName("BMW");
 echo "<br>";
-echo $result->getName();
+echo $r->getName();
 
 ?>
