@@ -1,23 +1,49 @@
 <?php
-class Car{
+// class Car{
+//     //properties
+//     public $name ="BMW";
+//     public $color ="Blue";
+//     public $model ="sd12";
+//     function info($c){
+//         echo "Beautiful country is Bangladesh";
+//         echo "<br>";
+
+//         //color change
+//         $this->color = $c;
+//         return $this->color;
+//     }
+
+// }
+// $result = new Car();
+// echo $result-> model;
+
+// echo "<br>";
+// echo $result->info("black");
+
+
+
+
+class dress{
     //properties
-    public $name ="BMW";
-    public $color ="Blue";
-    public $model ="sd12";
-    function info($c){
-        echo "Beautiful country is Bangladesh";
+   public $color= "Blue-white";
+   public $design="New-tersel";
+   public $model ="Farsi";
+    function dress_brand($d){
+        echo "laraiv";
         echo "<br>";
-        //color change
-        $this->color = $c;
-        return $this->color;
+        $this->design= $d;
+        return $this->design;
+
     }
 
 }
-$result = new Car();
-echo $result-> model;
-
+$result = new dress();
+echo $result->model;
 echo "<br>";
-echo $result->info("black");
+echo $result->dress_brand("Artisan");
 
 
 ?>
+
+
+
