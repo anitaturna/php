@@ -6,6 +6,4 @@ print_r($dim);
 echo "<br>";
 echo json.encode($dim);
 
-
-
 ?>

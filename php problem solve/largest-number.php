@@ -16,6 +16,8 @@ if(isset($_POST['submit'])){
 }
 ?>
 
+
+
 <form method="post"> 
     first number: <input type="number" name="num1" id=""> <br> <br>
     second number: <input type="number" name="num2" id=""> <br> <br>
