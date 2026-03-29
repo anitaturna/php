@@ -1,5 +1,5 @@
 <?php
-class student{
+class Student{
     public $name;
     public $age;
     public $adress;
@@ -20,7 +20,7 @@ public function details($n){
 
 
 
-class teacher extends student{
+class Teacher extends Student{
     public $experience;
     public function teacherDetails(){
         echo "Hello Teacher";
@@ -28,7 +28,7 @@ class teacher extends student{
 }
 
 
-class authority extends teacher{
+class Authority extends Teacher{
     public $position ="consultent";
     public function isdb(){
         echo "Result is published";
@@ -36,16 +36,16 @@ class authority extends teacher{
 }
 
 
-$tr = new teacher();
+$tr = new Teacher();
 echo $tr->name;
 $tr->teacherDetails();
 
-$st =new student();
+$st =new Student();
 echo "<br>";
 $st->details("Turna");
 echo "<br>";
 $st->_contruct();
-$at = new authority();
+$at = new Authority();
 echo $at ->position;
 echo "<br>";
 $at->isdb();
