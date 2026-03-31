@@ -16,7 +16,7 @@ class Student{
 
 
     public function fullinfo(){
-        echo $this->name; 
+        echo $this->name;   
         echo "<br>";
         echo $this->age;
         echo "<br>";

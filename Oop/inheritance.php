@@ -44,6 +44,7 @@ $st =new Student();
 echo "<br>";
 $st->details("Turna");
 echo "<br>";
+
 $st->_contruct();
 $at = new Authority();
 echo $at ->position;

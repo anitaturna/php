@@ -28,7 +28,7 @@ class dress{
    public $color= "Blue-white";
    public $design="New-tersel";
    public $model ="Farsi";
-    function dress_brand($d){
+    func0tion dress_brand($d){
         echo "laraiv";
         echo "<br>";
         $this->design= $d;
