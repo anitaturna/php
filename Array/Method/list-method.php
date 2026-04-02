@@ -6,7 +6,9 @@ $record = [
 
 foreach( $record as $value){
     list($id, $name, $mail, $age, $phn)= explode(",", $value);
-    echo "$name | $age | $mail | $phn <br>";
+    echo "Id: " .$id . "<br>";
+    echo "Name: " .$name . "<br>";
+    echo "Phone: " .$phn . "<br> <br>";
 }
 
 ?>
