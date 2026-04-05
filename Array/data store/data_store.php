@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div style=" width: 320px; height: 320px; 
-     border-radius: 10px;
-     bos-shadow: 0 0 10px gray;
-      padding: 20px; margin: auto; 
-       items-align: center; "> 
-       <!-- font-family: cursive; -->
-
+    <div style=" width: 320px;
+    height: 320px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    padding: 20px; margin: auto; 
+    font-family: cursive;
+">
         <h2>Add students</h2>
         <form action="#" mehtod="post"> 
             Id: <br>
