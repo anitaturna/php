@@ -1,5 +1,6 @@
 <?php
 $a = "there is a new river padma";
+
  echo ucfirst($a); //first word er first letter capital kore
  echo "<br>";
 
