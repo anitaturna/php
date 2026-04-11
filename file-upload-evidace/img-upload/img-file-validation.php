@@ -19,7 +19,7 @@ if(isset($_POST['submitbtn'])){
     <meta charset="UTF-8">
     <title>Upload</title>
 </head>
-<body>
+<body> 
 
 <form action="" method="post" enctype="multipart/form-data"> 
     <input type="file" name="f">
@@ -28,7 +28,12 @@ if(isset($_POST['submitbtn'])){
 
 <?php
 if(isset($_POST['submitbtn'])){
-    echo "<img src='img/$fileName' width='200'>";
+    $s = "img/";
+     $files = scandir("$s");
+    foreach($files as $file){
+        if($file != "." && $file != ".."){
+    echo "<img src='".$s.$file."' width='200'>";}
+    }
     echo "<br>";
     echo "File uploded & Stored successfully";
 }
