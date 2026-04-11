@@ -7,5 +7,8 @@
 </head>
 <body>
     <h1>HIIIIIIIIIIIII</h1>
+    <a href="logout.php">
+        <h2>logout</h2>
+    </a>
 </body>
 </html>
