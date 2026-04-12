@@ -10,7 +10,7 @@
     $sum += $a;
 
 
-    $next = $a + $a;
+    $next = $a + $b;
     $a = $b;
     $b = $next;
   }
