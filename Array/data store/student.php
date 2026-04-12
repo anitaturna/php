@@ -24,6 +24,26 @@ class Student
         file_put_contents(self::$file_source, $this->child(), FILE_APPEND);
     }
 
+
+    // ২. Data search korar function (Eitai missing chilo)
+    function searchById($searchId) {
+        if (file_exists("store.txt")) {
+            $data = file("store.txt");
+            foreach ($data as $line) {
+                $line = trim($line);
+                if (!empty($line)) {
+                    $myArray = explode(",", $line);
+                    // $myArray[0] holo ID
+                    if (isset($myArray[0]) && $myArray[0] == $searchId) {
+                        return $myArray; // Data mille array-ta pathiye dibe
+                    }
+                }
+            }
+        }
+        return null; // Na mille null pathabe
+    }
+
+
     public static function display()
     {
         $data = file(self::$file_source);

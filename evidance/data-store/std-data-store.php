@@ -1,13 +1,13 @@
 <?php
-require_once('student.php');
+require_once('std-file.php');
 
 if (isset($_POST['btnsubmit'])) {
 
     $uid = $_POST['fid'];
     $uname = $_POST['fname'];
-    $uemail = $_POST['femail'];
+    $ubatch = $_POST['fbatch'];
 
-    $c = new Student($uid, $uname, $uemail);
+    $c = new Student($uid, $uname, $ubatch);
     $c->store();
 
     echo "Successfully Stored <br><br>";
@@ -39,22 +39,14 @@ if (isset($_POST['btnsubmit'])) {
         Name: <br>
         <input type="text" name="fname" required><br><br>
 
-        Email: <br>
-        <input type="email" name="femail" required><br><br>
+        Batch: <br>
+        <input type="text" name="fbatch" required><br><br>
 
         <input type="submit" name="btnsubmit">
 
         </form>
 
         <hr>
-
-        
-        <!-- // Search id  -->
-        <h2>Search ID:</h2>
-    <form action="" method="post">
-        <input type="text" name="search_id" placeholder="Enter ID to search" required>
-        <input type="submit" name="btnsearch" value="Search Now">
-    </form> <br> <br>
 
 
 <?php
