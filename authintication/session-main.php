@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HIIIIIIIIIIIII</h1>
+    <h1>Thanks to enter your name and pass</h1>
     <a href="logout.php">
         <h2>logout</h2>
     </a>

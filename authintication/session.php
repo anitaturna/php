@@ -9,7 +9,7 @@ if(isset($_POST['login'])){
     list($_user, $_pass) = explode(",",$line);
     if(trim($_user) == $user && trim($_pass) == $pass){
         $_SESSION['username'] = $user;
-        header ('location:main.php');
+        header ('location:session-main.php');
     }
 
     else{
